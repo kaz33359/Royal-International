@@ -4306,11 +4306,11 @@ button {
         display: block
     }
 }
-/* @media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   #fs-container {
     background-image: url(../images/scrap-1.jpg);
   }
-} */
+}
 /* @media (max-width:1025px) {
     #fs-container {
       background-image: url(../images/half.jpg);
