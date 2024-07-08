@@ -21366,7 +21366,7 @@ p.special-heading.text-center {
 .step-gorizontal .step {
     padding: 160px 85px 152px;
     text-align: center;
-    width: 33.3%
+    width: 50%
 }
 
 @media(max-width:1600px) {
