@@ -18,48 +18,51 @@
     <link rel="stylesheet" href="css/shop.css" class="color-switcher-link" />
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <style>
-       h1, h2, h3, h4 {
-            color: #007BFF;
-        }
-        h1 {
-            font-size: 2.5em;
-            padding-bottom: 10px;
-        }
-        h2 {
-            font-size: 2em;
-            border-bottom: 1px solid #007BFF;
-            padding-bottom: 8px;
-        }
-        h3 {
-            font-size: 1.5em;
-            margin-top: 20px;
-        }
-        h4 {
-            font-size: 1.2em;
-            margin-top: 15px;
-        }
-        p {
-            margin: 10px 0;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        ul li {
-            margin-bottom: 5px;
-        }
-        .highlight {
-            background-color: #e9f5ff;
-            padding: 10px;
-            border-left: 5px solid #007BFF;
-        }
-        .note {
-            font-style: italic;
-            color: #666;
-        }
-        .list {
-            margin-top: 10px;
-        }
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #007bff;
+      }
+      h1 {
+        font-size: 2.5em;
+        padding-bottom: 10px;
+      }
+      h2 {
+        font-size: 2em;
+        border-bottom: 1px solid #007bff;
+        padding-bottom: 8px;
+      }
+      h3 {
+        font-size: 1.5em;
+        margin-top: 20px;
+      }
+      h4 {
+        font-size: 1.2em;
+        margin-top: 15px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+      ul li {
+        margin-bottom: 5px;
+      }
+      .highlight {
+        background-color: #e9f5ff;
+        padding: 10px;
+        border-left: 5px solid #007bff;
+      }
+      .note {
+        font-style: italic;
+        color: #666;
+      }
+      .list {
+        margin-top: 10px;
+      }
     </style>
   </head>
 
@@ -413,9 +416,7 @@
             </div>
           </header>
 
-          <header
-            class="page_header header-1 ds bg-transparent s-overlay s-py-10"
-          >
+          <header class="page_header header-1 ds s-py-xl-20 s-py-10 ">
             <div class="container-fluid">
               <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-xl-3 col-md-4 col-12 text-center">
@@ -427,7 +428,7 @@
                   <!-- main nav start -->
                   <nav class="top-nav">
                     <ul class="nav sf-menu">
-                      <li class="active">
+                      <li>
                         <a href="index.html">Home</a>
                       </li>
 
@@ -435,13 +436,13 @@
                         <a href="about.html">About</a>
                       </li>
                       <!-- eof pages -->
-                      <li>
+                      <li class="active">
                         <a href="services.html">Service</a>
                       </li>
 
                       <!-- blog -->
                       <li>
-                        <a href="blog-full.html">Blog</a>
+                        <a href="index.html" onclick="scrollToBlog()">Blog</a>
                       </li>
                       <!-- eof blog -->
 
@@ -488,7 +489,9 @@
                     <li class="breadcrumb-item">
                       <a href="#">Pages</a>
                     </li>
-                    <li class="breadcrumb-item active">Bitumen and Oil Products</li>
+                    <li class="breadcrumb-item active">
+                      Bitumen and Oil Products
+                    </li>
                   </ol>
                 </div>
               </div>
@@ -502,8 +505,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-6 col-12 col-xl-6 offset-xl-1">
-                <div
-                >
+                <div>
                   <img
                     class="rounded"
                     src="images/services/Bitumen_1.1.jpg"
@@ -625,8 +627,8 @@
           </div>
         </section>
 
-       <footer
-          class="page_footer text-center text-sm-left ds s-pt-55 s-pb-60 s-pt-md-85 s-pb-md-90 s-pt-lg-125 s-pb-lg-130 s-pt-xl-160 s-pb-xl-155 c-gutter-30 s-parallax c-mb-50 c-mb-lg-0"
+        <footer
+          class="page_footer text-center text-sm-left ts s-pt-55 s-pb-60 s-pt-md-85 s-pb-md-90 s-pt-lg-125 s-pb-lg-130 s-pt-xl-160 s-pb-xl-155 c-gutter-30 s-parallax c-mb-50 c-mb-lg-0"
         >
           <div class="container">
             <div class="row justify-content-center">
@@ -668,9 +670,13 @@
                         <i class="fas fa-phone"></i>
                       </div>
                       <p>
-                        <a href="tel: +971501425975" style="color: #fff;">+971 50142 5975</a>
+                        <a href="tel: +971501425975" style="color: #fff"
+                          >+971 50142 5975</a
+                        >
                         <br />
-                        <a href="tel: +97165265034 " style="color: #fff;">+971 6526 5034</a>
+                        <a href="tel: +97165265034 " style="color: #fff"
+                          >+971 6526 5034</a
+                        >
                       </p>
                     </li>
                     <li class="icon-inline">
@@ -678,8 +684,10 @@
                         <i class="fas fa-envelope"></i>
                       </div>
                       <p>
-                        <a href="mailto:sales@royalintluae.com"
-                          style="color: #fff;">sales@royalintluae.com</a
+                        <a
+                          href="mailto:sales@royalintluae.com"
+                          style="color: #fff"
+                          >sales@royalintluae.com</a
                         >
                       </p>
                     </li>
@@ -688,8 +696,8 @@
                         <i class="fas fa-map-marker-alt"></i>
                       </div>
                       <p>
-                        <a href="#"
-                          style="color: #fff;">ROYAL INTERNATIONAL FZE <br />
+                        <a href="#" style="color: #fff"
+                          >ROYAL INTERNATIONAL FZE <br />
                           HAMRIYAH FREEZONE <br />
                           SHARJAH – UAE
                         </a>
@@ -704,17 +712,22 @@
                   <h3 class="widget-title">Quick Links</h3>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="about.html" style="color: #fff;">About</a>
+                      <a href="about.html" style="color: #fff">About</a>
                     </li>
                     <li>
-                      <a href="header1.html" style="color: #fff;">Features</a>
+                      <a href="services.html" style="color: #fff">Services</a>
                     </li>
                     <li>
-                      <a href="blog-right.html" style="color: #fff;">Blog</a>
+                      <a
+                        href="index.html"
+                        onclick="scrollToBlog()"
+                        style="color: #fff"
+                        >Blog</a
+                      >
                     </li>
 
                     <li>
-                      <a href="contact.html" style="color: #fff;">Contact Us</a>
+                      <a href="contact.html" style="color: #fff">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -725,32 +738,42 @@
                   <h3 class="widget-title">Our Services</h3>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="diesel-trading.html" style="color: #fff;">Diesel Trading</a>
+                      <a href="diesel-trading.html" style="color: #fff"
+                        >Diesel Trading</a
+                      >
                     </li>
                     <li>
-                      <a href="petrochemical-trading.html" style="color: #fff;">Bio-Diesel Trading</a>
+                      <a href="petrochemical-trading.html" style="color: #fff"
+                        >Bio-Diesel Trading</a
+                      >
                     </li>
                     <li>
-                      <a href="petrochemical-trading.html" style="color: #fff;">Petro Chemical Trading</a>
+                      <a href="petrochemical-trading.html" style="color: #fff"
+                        >Petro Chemical Trading</a
+                      >
                     </li>
                     <li>
-                      <a href="bitumen-oil-products.html" style="color: #fff;"
+                      <a href="bitumen-oil-products.html" style="color: #fff"
                         >Bitumin and Oil Products</a
                       >
                     </li>
                     <li>
-                      <a href="flexi-bag.html" style="color: #fff;">Flexi-Bag / Flexi-Tank</a>
+                      <a href="flexi-bag.html" style="color: #fff"
+                        >Flexi-Bag / Flexi-Tank</a
+                      >
                     </li>
                     <li>
-                      <a href="oil-gas-equipment.html" style="color: #fff;">Oil and Gas trading</a>
+                      <a href="oil-gas-equipment.html" style="color: #fff"
+                        >Oil and Gas trading</a
+                      >
                     </li>
                     <li>
-                      <a href="shipping-container-trading.html" style="color: #fff;"
+                      <a
+                        href="shipping-container-trading.html"
+                        style="color: #fff"
                         >Shipping/Customized Containers</a
                       >
                     </li>
-
-                    
                   </ul>
                 </div>
               </div>

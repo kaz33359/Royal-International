@@ -2072,3 +2072,7 @@
 //end of IIFE function
 })(jQuery);
 
+  function scrollToBlog() {
+    // Set the flag in localStorage before navigating to the index page
+    localStorage.setItem('scrollToBlog', 'true');
+  }

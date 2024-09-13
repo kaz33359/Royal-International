@@ -12134,6 +12134,10 @@ body.boxed {
 }
 
 .ds {
+    background-color: #ffffff42;
+    color: #fff
+}
+.ts {
     background-color: #09445a;
     color: #fff
 }
@@ -29967,6 +29971,10 @@ img.absolute_image {
 }
 .page_title_diesel {
     background-image: url(../images/services/Diesel_1.1.jpg);
+    background-size: cover
+}
+.page_title_oil_gas {
+    background-image: url(../images/banner/Oil_and_gas_banner.jpg);
     background-size: cover
 }
 
