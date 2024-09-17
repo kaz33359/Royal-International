@@ -29977,6 +29977,10 @@ img.absolute_image {
     background-image: url(../images/banner/Oil_and_gas_banner.jpg);
     background-size: cover
 }
+.page_title_storage_bunkering {
+    background-image: url(../images/services/Bunkering_1.1.jpg);
+    background-size: cover
+}
 
 .portfolio-section {
     background-image: url(../images/portfolio-bg.jpg);
@@ -31102,4 +31106,25 @@ img.absolute_image {
 
 .checkbox-slider--b-flat input+span:before {
     box-shadow: none
+}
+
+.tank-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tank-table th, .tank-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tank-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.tank-table td {
+    color: #333;
 }

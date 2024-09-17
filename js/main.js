@@ -2076,3 +2076,4 @@
     // Set the flag in localStorage before navigating to the index page
     localStorage.setItem('scrollToBlog', 'true');
   }
+
