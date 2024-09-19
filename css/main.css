@@ -12141,6 +12141,10 @@ body.boxed {
     background-color: #09445a;
     color: #fff
 }
+.fs {
+    background-color: #e0e0e0;
+    color: #000000
+}
 
 .ds .breadcrumb {
     background: #fff
@@ -13459,7 +13463,7 @@ body.boxed {
 }
 
 .bordered {
-    border: 2px solid #f2f5f7
+    border: 2px solid #000000
 }
 
 .box-shadow {
@@ -22582,7 +22586,7 @@ aside>*+* {
 }
 
 .page_footer .widget_nav_menu ul li a:before {
-    color: #fff;
+    color: #000000;
     content: "\f054";
     display: inline-block !important;
     font-size: 12px;
@@ -29815,7 +29819,7 @@ img.absolute_image {
 }
 
 .page_footer .widget_icons_list .icon-styled.bordered+p {
-    border-bottom: 2px solid #f2f5f7;
+    border-bottom: 2px solid #000000;
     margin-top: 10px;
     padding-bottom: 15px;
     width: 100%
