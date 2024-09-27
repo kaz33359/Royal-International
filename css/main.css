@@ -26622,7 +26622,7 @@ a img.aligncenter {
 }
 
 a.logo img {
-    width: 200px
+    width: 110px
 }
 
 .page_topline {
@@ -26933,8 +26933,8 @@ a.logo img {
 
 @media(max-width:1200px) {
     a.logo img {
-        max-height: 50px;
-        width: 150px
+        max-height: 100px;
+        width: 100px
     }
 }
 
@@ -27007,7 +27007,8 @@ a.logo.flex-column.text-center {
 .page_footer .logo {
     justify-content: flex-start;
     margin-bottom: 23px;
-    margin-top: -8px
+    margin-top: -8px;
+    margin-left: 20px;
 }
 
 #search_modal {
