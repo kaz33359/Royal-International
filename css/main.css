@@ -26622,7 +26622,7 @@ a img.aligncenter {
 }
 
 a.logo img {
-    width: 130px
+    width: 150px
 }
 
 .page_topline {
@@ -26827,7 +26827,7 @@ a.logo img {
 
 @media(max-width:1400px) {
     .top-includes>li.metaphone {
-        font-size: 22px
+        font-size: 20px
     }
 }
 
@@ -26915,7 +26915,6 @@ a.logo {
 @media(max-width:768px) {
     a.logo {
         justify-content: center;
-        margin-bottom: 20px
     }
 }
 
