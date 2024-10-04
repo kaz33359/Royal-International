@@ -8463,10 +8463,10 @@ div.row.c-gutter-0 {
         padding-top: 17px
     }
 
-    .s-py-xl-20>[class*=container] {
+    /* .s-py-xl-20>[class*=container] {
         padding-bottom: 20px;
         padding-top: 20px
-    }
+    } */
 
     .s-py-xl-23>[class*=container] {
         padding-bottom: 23px;
@@ -25878,7 +25878,7 @@ a img.aligncenter {
 .toggle_menu span,
 .toggle_menu span:before,
 .toggle_menu span:after {
-    background-color: #fff;
+    background-color: #000;
     content: "";
     display: block;
     height: 2px;
@@ -25920,7 +25920,7 @@ a img.aligncenter {
 }
 
 .toggle_menu.mobile-active:before {
-    background-color: #fff;
+    background-color: #000;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg)
 }
@@ -26494,7 +26494,7 @@ a img.aligncenter {
 }
 
 .header-1 .toggle_menu:not(.toggle_menu_side_special):after {
-    background: #fff;
+    background: #000;
     bottom: 20%;
     content: "";
     height: 2px;
@@ -27670,6 +27670,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .intro_layers {
+    opacity: 75%;
     -webkit-animation: bubble 5s linear infinite;
     animation: bubble 5s linear infinite;
     background-image: linear-gradient(to top, #dd4454 0%, #dd9044 100%);
