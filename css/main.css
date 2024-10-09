@@ -22582,6 +22582,7 @@ aside>*+* {
 
 .page_footer .widget_nav_menu ul li a {
     padding: 0;
+    font-weight: 300;
     position: relative
 }
 
@@ -26812,7 +26813,7 @@ a.logo img {
 }
 
 .top-includes>li+li {
-    margin-left: 60px
+    margin-left: -40px
 }
 
 .top-includes>li:last-child {
@@ -26820,8 +26821,8 @@ a.logo img {
 }
 
 .top-includes>li.metaphone {
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     letter-spacing: 1px
 }
 
@@ -27670,7 +27671,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .intro_layers {
-    opacity: 75%;
+    opacity: 70%;
     -webkit-animation: bubble 5s linear infinite;
     animation: bubble 5s linear infinite;
     background-image: linear-gradient(to top, #dd4454 0%, #dd9044 100%);
@@ -27682,7 +27683,7 @@ body.active-side-header.slide-right .page_header_side {
     padding: 187px 63px;
     position: relative;
     width: 100%;
-    z-index: 1
+    z-index: -1
 }
 
 .page_slider .intro_layers .btn {
